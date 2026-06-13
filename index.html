@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoAI - Revolutionary AI Model</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e2937 100%);
+        }
+    </style>
+</head>
+<body class="bg-zinc-950 text-white">
+    <!-- Navbar -->
+    <nav class="bg-zinc-900 border-b border-zinc-800 fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center text-xl font-bold">E</div>
+                <span class="text-2xl font-semibold tracking-tight">EchoAI</span>
+            </div>
+            <div class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#features" class="hover:text-blue-400 transition">Features</a>
+                <a href="#demo" class="hover:text-blue-400 transition">Demo</a>
+                <a href="#pricing" class="hover:text-blue-400 transition">Pricing</a>
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-sm font-medium px-5 py-2 rounded-full hover:bg-zinc-800 transition">Log in</a>
+                <a href="#" class="bg-white text-zinc-900 px-6 py-2 rounded-full font-semibold hover:bg-blue-400 hover:text-white transition">Get Started Free</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero-bg pt-32 pb-24">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center bg-zinc-800 rounded-full px-4 py-1 text-sm mb-6">
+                <span class="bg-emerald-500 text-emerald-950 px-2 py-0.5 rounded-full text-xs font-bold mr-2">NEW</span>
+                EchoAI-3 just released
+            </div>
+            <h1 class="text-6xl md:text-7xl font-bold tracking-tighter mb-6">
+                The most powerful<br>AI model on Earth
+            </h1>
+            <p class="max-w-2xl mx-auto text-xl text-zinc-400 mb-10">
+                EchoAI understands context like never before. Generate code, write stories, analyze data, and solve complex problems with unprecedented intelligence.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" onclick="alert('Try the demo! (In real site this would link to playground)')" 
+                   class="bg-white text-black px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-blue-400 hover:text-white transition flex items-center justify-center gap-3">
+                    <span>Try EchoAI Free</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7-7 7" />
+                    </svg>
+                </a>
+                <a href="#demo" class="border border-zinc-700 px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-zinc-800 transition">Watch 2-min demo</a>
+            </div>
+            <div class="mt-12 flex justify-center gap-8 text-sm text-zinc-500">
+                <div>Trusted by 50k+ developers & teams</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="py-24 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Built for the future</h2>
+                <p class="text-zinc-400 max-w-md mx-auto">Advanced capabilities that go beyond current AI models</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-zinc-800 p-8 rounded-3xl">
+                    <div class="w-12 h-12 bg-blue-500/10 rounded-2xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">🧠</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Super Intelligence</h3>
+                    <p class="text-zinc-400">Reasoning at the level of top experts across domains. Multi-step problem solving.</p>
+                </div>
+                <div class="bg-zinc-800 p-8 rounded-3xl">
+                    <div class="w-12 h-12 bg-purple-500/10 rounded-2xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">⚡</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Lightning Fast</h3>
+                    <p class="text-zinc-400">Sub-second responses even for complex queries. Optimized for real-time applications.</p>
+                </div>
+                <div class="bg-zinc-800 p-8 rounded-3xl">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-2xl flex items-center justify-center mb-6">
+                        <span class="text-3xl">🔒</span>
+                    </div>
+                    <h3 class="text-2xl font-semibold mb-3">Enterprise Secure</h3>
+                    <p class="text-zinc-400">Private deployments, SOC2 compliant, zero data retention by default.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo -->
+    <section id="demo" class="py-24 border-t border-zinc-800">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-4">Experience EchoAI</h2>
+            <p class="text-zinc-400 mb-12">Chat with our live demo model</p>
+            <div class="bg-zinc-900 border border-zinc-700 rounded-3xl p-8 max-h-[500px] overflow-auto text-left">
+                <div class="mb-8">
+                    <div class="flex gap-3">
+                        <div class="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex-shrink-0"></div>
+                        <div>
+                            <div class="text-xs text-zinc-500">EchoAI</div>
+                            <div class="mt-1">Hello! How can I help you today? Ask me anything.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fake chat would be here in real app -->
+            </div>
+            <div class="mt-8 text-sm text-zinc-500">This is a static demo. In production, it would be a real interactive chat.</div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-24 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">Simple, transparent pricing</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-zinc-800 rounded-3xl p-8">
+                    <h3 class="text-xl font-semibold">Free</h3>
+                    <div class="text-5xl font-bold mt-4 mb-1">$0</div>
+                    <p class="text-zinc-400">For individuals getting started</p>
+                    <ul class="mt-8 space-y-4 text-sm">
+                        <li>✓ 50 queries / day</li>
+                        <li>✓ Basic models</li>
+                    </ul>
+                    <button class="w-full mt-10 py-4 border border-zinc-600 rounded-2xl font-medium">Start Free</button>
+                </div>
+                <div class="bg-gradient-to-b from-blue-600 to-purple-600 rounded-3xl p-8 relative scale-105">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-blue-600 text-xs font-bold px-6 py-1 rounded-full">MOST POPULAR</div>
+                    <h3 class="text-xl font-semibold">Pro</h3>
+                    <div class="text-5xl font-bold mt-4 mb-1">$29</div>
+                    <p class="text-blue-100">/month billed yearly</p>
+                    <ul class="mt-8 space-y-4 text-sm">
+                        <li>✓ Unlimited queries</li>
+                        <li>✓ Advanced models</li>
+                        <li>✓ Priority support</li>
+                    </ul>
+                    <button class="w-full mt-10 bg-white text-black py-4 rounded-2xl font-semibold">Subscribe Now</button>
+                </div>
+                <div class="bg-zinc-800 rounded-3xl p-8">
+                    <h3 class="text-xl font-semibold">Enterprise</h3>
+                    <div class="text-5xl font-bold mt-4 mb-1">Custom</div>
+                    <p class="text-zinc-400">For teams & companies</p>
+                    <ul class="mt-8 space-y-4 text-sm">
+                        <li>✓ Dedicated instances</li>
+                        <li>✓ SSO & compliance</li>
+                        <li>✓ Custom training</li>
+                    </ul>
+                    <button class="w-full mt-10 py-4 border border-zinc-600 rounded-2xl font-medium">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black py-12 border-t border-zinc-800">
+        <div class="max-w-7xl mx-auto px-6 text-center text-zinc-500 text-sm">
+            © 2026 EchoAI. All rights reserved. | Built as demo for Grok
+        </div>
+    </footer>
+</body>
+</html>
